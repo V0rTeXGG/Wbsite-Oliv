@@ -1,0 +1,755 @@
+@media(max-width: 1440px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .card__link {
+        opacity: 0;
+        position: absolute;
+        
+        transition: all .1s ease-in-out;
+    }
+
+    .block__social {
+        left: 45%;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .hero__title {
+        font-size: 80px;
+    }
+
+    .hero__text {
+        font-size: 20px;
+    }
+
+    .amenities__content {
+        gap: 10px;
+    }
+
+    .block__info-main {
+        margin-bottom: 145px;
+    }
+
+    .contact__title {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 980px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    .hero__title {
+        font-size: 76px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+
+    .content__sponsors {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .sponsors__link {
+        flex-basis: 20%;
+    }
+
+    .amenities__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .work__link-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(3, minmax(180px, 376px));
+    }
+
+    .block__3 {
+        grid-column-start: auto;
+        grid-row-start: auto;
+    }
+    
+    .block__4 {
+        grid-column-start: auto;
+        grid-row-start: auto;
+        background-color: #F8EDE3;;
+    }
+    
+    .block__5 {
+        grid-column-start: auto;
+        grid-row-start: auto;
+        background-color:  #FFFAE7;
+    }
+
+    .team__grid-block.title__block {
+        padding: 25px 25px 48px 25px;
+    }
+
+    .block__info-main {
+        margin-bottom: 80px;
+    }
+
+    .blog__card-title {
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .social__link {
+        width: 25px;
+        height: 25px;
+    }
+
+    .block__info {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .block__title {
+        font-size: 25px;
+    }
+
+    .block__text {
+        font-size: 12px;
+    }
+
+    .block__btn-main {
+        width: 115px;
+        height: 45px;
+    }
+
+    .services__text {
+        font-size: 26px;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .body.hiden {
+        overflow-y: hidden;
+    }
+
+    .nav.open {
+        right: 0;
+        left: 0;
+    }
+
+    .nav {
+        position: absolute;
+        z-index: 10;
+        left: -50%;
+        right: 100%;
+        top: 85px;
+        bottom: 0;
+        height: 100vh;
+        padding-right: 30px;
+        border-top: 2px solid var(--color-black-main);
+        background-color: var(--color-white);
+        transition: all .3s ease-in-out;    
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 10px;
+        gap: 20px;
+    }
+
+    .nav__item__link {
+        font-size: 22px;
+    }
+
+    .nav__link-page {
+        font-size: 28px;
+    }
+
+    .nav__link-page::after {
+        display: none;
+    }
+
+    .nav__item__btn {
+        width: 120px;
+        display: block;
+        font-size: 28px;
+        border-radius: none;
+        border: none;
+    }
+
+    .subtitle__link {
+        font-size: 28px;
+    }
+
+    .item__hover {
+        display: none;
+    }
+
+    .width__768 {
+        display: block;
+    }
+
+    .hero {
+        margin-bottom: 120px;
+    }
+
+    .hero__title {
+        font-size: 70px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+    }
+
+    .text__block.card__name {
+        font-size: 22px;
+    }
+
+    .work__link-image {
+        width: 75%;
+        height: auto;
+    }
+
+    
+    .services__text {
+        font-size: 22px;
+    }
+
+    .services__grid-main-block {
+        padding: 25px;
+    }
+
+    .services__grid-block {
+        padding: 25px;
+    }
+
+
+    .goal__block__text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .goal__tile {
+        margin-bottom: 32px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    .team__block-title {
+        margin-bottom: 40px;
+    }
+
+    .block__info-main {
+        margin-bottom: 65px;
+    }
+
+    .block__subtitle {
+        font-size: 10px;
+    }
+
+    .block__title {
+        font-size: 18px;
+    }
+
+    .block__text {
+        font-size: 10px;
+    }
+
+    .block__btn-main {
+        width: 100px;
+        height: 38px;
+    }
+
+    .block__name-person {
+        font-size: 14px;
+    }
+
+    .block__btn {
+        height: 20px;
+        padding: 6px 9px;
+        font-size: 10px;
+    }
+
+    .blog__content {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 32px;
+    }
+
+    .blog__card-title {
+        font-size: 20px;
+    }
+
+    .blog__card-link {
+        font-size: 18px;
+    }
+
+    .block__social {
+        left: 30%;
+        bottom: 20px;
+    }
+
+    .review__text {
+        font-size: 14px;
+    }
+
+    .contact__text {
+        font-size: 20px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__block:not(:first-child) {
+        display: none;
+    }
+
+    .block__first {
+        margin-bottom: 48px;
+    }
+
+    .footer__logo img {
+        margin-bottom: 32px;
+    }
+
+    .footer__list-item {
+        margin-bottom: 18px;
+    }
+
+    .footer__btn {
+        width: 110px;
+        height: 31px;
+        font-size: 12px;
+    }
+
+    .accordion__list {
+        display: block;
+        margin-bottom: 32px;
+    }
+}
+
+
+@media(max-width: 590px) {
+
+    .menu-bar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    .wrapper__hero {
+        margin-top: 70px;
+    }
+
+    .hero__content {
+        margin-left: 40px;
+    }
+
+    .hero__title {
+        font-size: 60px;
+    }
+
+    .hero__text {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .amenities__content {
+        gap: 20px;
+    }
+
+    .amenities__card-title {
+        font-size: 20px;
+    }
+
+    .amenities__card-text {
+        margin-bottom: 24px;
+        font-size: 12px;
+    }
+
+    .amenities__card-link {
+        font-size: 12px;
+    }
+
+    .work__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+        column-gap: 32px;
+    }
+
+    .text__block.card__name {
+        font-size: 30px;
+    }
+
+    .text__block.card__btn {
+        padding: 6px 12px;
+        font-size: 18px;
+    }
+
+    .work__link-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .services__grid {
+        grid-template-columns: repeat(2, minmax(180px, 376px));
+        grid-template-rows: repeat(3, minmax(180px, 250px));
+    }
+
+    .services__grid-main-block {
+        max-height: 300px;
+    }
+
+    .services__grid-block {
+        max-height: 300px;
+    }
+
+    .services__title {
+        margin-bottom: 8px;
+    }
+
+    .services__block-title {
+        font-size: 20px;
+    }
+
+
+    .goal__tile {
+        font-size: 35px;
+    }
+
+    .goal__text {
+        font-size: 13px;
+    }
+
+    .block__subtitle {
+        font-size: 12px;
+    }
+
+    .block__title {
+        font-size: 24px;
+    }
+
+    .team__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .block__name-person {
+        font-size: 18px;
+    }
+
+    .block__social {
+        left: 50%;
+        bottom: 30px;
+    }
+
+
+    .social__link {
+        width: 30px;
+        height: 30px;
+    }
+
+    .review__block {
+        display: block;
+    }
+
+    .reviews__link img {
+        margin-bottom: 25px;
+    }
+
+    .review__quote {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .text__margin-bottom {
+        margin-bottom: 15px;
+    }
+
+    .review__text {
+        font-size: 12px;
+    }
+
+    .contact__title {
+        font-size: 35px;
+    }
+
+    .contact__text {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .contact__btn {
+        width: 130px;
+        height: 44px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .subtitle {
+        margin-bottom: 22px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .hero {
+        margin-bottom: 70px;
+    }
+
+    .hero__title {
+        font-size: 40px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .hero_btn {
+        width: 110px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .content__sponsors {
+        gap: 15px;
+    }
+
+    .work__title-block {
+        margin-bottom: 40px;
+    }
+
+    .text__block.card__name {
+        font-size: 22px;
+    }
+
+    .work__link-image {
+        width: 90%;
+        height: auto;
+    }
+
+    .btn__title {
+        padding: 0 3px;
+    }
+    
+
+    .services__text {
+        font-size: 20px;
+    }
+
+    .services__block-title {
+        font-size: 18px;
+    }
+
+    .services__block-subtitle {
+        font-size: 10px;
+    }
+
+    .services__btn-title {
+        width: 100px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .services__btn-title:after {
+        width: 9px;
+        height: 9px;
+    }
+
+    .goal__block__text {
+        row-gap: 20px;
+        column-gap: 15px;
+    }
+
+    .goal__tile {
+        font-size: 30px;
+    }
+
+    .goal__text {
+        font-size: 12px;
+    }
+
+    .block__subtitle {
+        font-size: 10px;
+    }
+
+    .block__title {
+        font-size: 18px;
+    }
+
+    .block__social {
+        left: 20%;
+    }
+
+    .blog__card-title {
+        font-size: 14px;
+    }
+
+    .blog__card-link {
+        font-size: 16px;
+    }
+
+    .social__link {
+        width: 22px;
+        height: 22px;
+    }
+
+    .footer__socials {
+        gap: 15px;
+    }
+
+    .footer__btn {
+        width: 110px;
+        height: 31px;
+        font-size: 12px;
+    }
+    
+    
+}
+
+@media(max-width: 320px) {
+
+    .subtitle {
+        font-size: 10px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .hero__text {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .hero_btn {
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .btn__title {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .work__link-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .text__block.card__btn {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+    .services__grid-main-block {
+        max-height: 250px;
+    }
+
+    .services__grid-block {
+        max-height: 250px;
+    }
+
+
+    .goal__tile {
+        font-size: 24px;
+    }
+
+    .goal__text {
+        font-size: 10px;
+    }
+
+
+    .team__grid-block.title__block {
+        padding: 25px 5px 0px 5px;
+    }
+
+    .block__subtitle {
+        font-size: 8px;
+    }
+
+    .block__title {
+        font-size: 14px;
+    }
+
+    .block__text {
+        font-size: 8px;
+    }
+
+    .block__btn-main {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .block__name-person {
+        font-size: 16px;
+    }
+
+
+    .review__quote {
+        font-size: 24px;
+    }
+
+    .contact__title {
+        font-size: 28px;
+    }
+
+    .contact__text {
+        font-size: 12px;
+    }
+
+    .contact__btn {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+
+    .blog__card-link {
+        font-size: 14px;
+    }
+
+    .footer__socials {
+        gap: 15px;
+    }
+
+    .footer__bootom-block{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
